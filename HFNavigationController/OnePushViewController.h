@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OnePushViewController.h
 //  HFNavigationController
 //
 //  Created by xhf on 16/5/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OnePushViewController : UIViewController
 
 @end
-

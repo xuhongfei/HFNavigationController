@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		E339CF821CE2D7B80074DB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF811CE2D7B80074DB9A /* main.m */; };
 		E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF841CE2D7B80074DB9A /* AppDelegate.m */; };
-		E339CF881CE2D7B80074DB9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF871CE2D7B80074DB9A /* ViewController.m */; };
-		E339CF8B1CE2D7B80074DB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E339CF891CE2D7B80074DB9A /* Main.storyboard */; };
 		E339CF8D1CE2D7B80074DB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */; };
 		E339CF901CE2D7B80074DB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */; };
 		E339CF9B1CE2D7B80074DB9A /* HFNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF9A1CE2D7B80074DB9A /* HFNavigationControllerTests.m */; };
 		E339CFA61CE2D7B80074DB9A /* HFNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFA51CE2D7B80074DB9A /* HFNavigationControllerUITests.m */; };
+		E339CFB61CE2DA9E0074DB9A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFB51CE2DA9E0074DB9A /* TabBarController.m */; };
+		E339CFBA1CE2DCDC0074DB9A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFB81CE2DCDC0074DB9A /* OneViewController.m */; };
+		E339CFBB1CE2DCDC0074DB9A /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */; };
+		E339CFBF1CE2DCFB0074DB9A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */; };
+		E339CFC01CE2DCFB0074DB9A /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */; };
+		E339CFC31CE2DDAA0074DB9A /* HFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */; };
+		E339CFCA1CE2E1550074DB9A /* OnePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFC81CE2E1550074DB9A /* OnePushViewController.m */; };
+		E339CFCB1CE2E1550074DB9A /* OnePushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +45,6 @@
 		E339CF811CE2D7B80074DB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E339CF831CE2D7B80074DB9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E339CF841CE2D7B80074DB9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E339CF861CE2D7B80074DB9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E339CF871CE2D7B80074DB9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E339CF8A1CE2D7B80074DB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E339CF8F1CE2D7B80074DB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E339CF911CE2D7B80074DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,19 @@
 		E339CFA11CE2D7B80074DB9A /* HFNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E339CFA51CE2D7B80074DB9A /* HFNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNavigationControllerUITests.m; sourceTree = "<group>"; };
 		E339CFA71CE2D7B80074DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E339CFB41CE2DA9E0074DB9A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		E339CFB51CE2DA9E0074DB9A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		E339CFB71CE2DCDC0074DB9A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E339CFB81CE2DCDC0074DB9A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		E339CFBC1CE2DCFB0074DB9A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNavigationController.h; sourceTree = "<group>"; };
+		E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNavigationController.m; sourceTree = "<group>"; };
+		E339CFC71CE2E1550074DB9A /* OnePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePushViewController.h; sourceTree = "<group>"; };
+		E339CFC81CE2E1550074DB9A /* OnePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePushViewController.m; sourceTree = "<group>"; };
+		E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePushViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +117,12 @@
 		E339CF7F1CE2D7B80074DB9A /* HFNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				E339CFB31CE2DA100074DB9A /* HFNavigationController */,
+				E339CFC51CE2E0BE0074DB9A /* First */,
+				E339CFC61CE2E0D70074DB9A /* Second */,
+				E339CFC41CE2E0AD0074DB9A /* Main */,
 				E339CF831CE2D7B80074DB9A /* AppDelegate.h */,
 				E339CF841CE2D7B80074DB9A /* AppDelegate.m */,
-				E339CF861CE2D7B80074DB9A /* ViewController.h */,
-				E339CF871CE2D7B80074DB9A /* ViewController.m */,
-				E339CF891CE2D7B80074DB9A /* Main.storyboard */,
-				E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */,
-				E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */,
-				E339CF911CE2D7B80074DB9A /* Info.plist */,
 				E339CF801CE2D7B80074DB9A /* Supporting Files */,
 			);
 			path = HFNavigationController;
@@ -118,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				E339CF811CE2D7B80074DB9A /* main.m */,
+				E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */,
+				E339CF911CE2D7B80074DB9A /* Info.plist */,
+				E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +155,47 @@
 				E339CFA71CE2D7B80074DB9A /* Info.plist */,
 			);
 			path = HFNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		E339CFB31CE2DA100074DB9A /* HFNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */,
+				E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */,
+			);
+			name = HFNavigationController;
+			sourceTree = "<group>";
+		};
+		E339CFC41CE2E0AD0074DB9A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E339CFB41CE2DA9E0074DB9A /* TabBarController.h */,
+				E339CFB51CE2DA9E0074DB9A /* TabBarController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E339CFC51CE2E0BE0074DB9A /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E339CFB71CE2DCDC0074DB9A /* OneViewController.h */,
+				E339CFB81CE2DCDC0074DB9A /* OneViewController.m */,
+				E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */,
+				E339CFC71CE2E1550074DB9A /* OnePushViewController.h */,
+				E339CFC81CE2E1550074DB9A /* OnePushViewController.m */,
+				E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		E339CFC61CE2E0D70074DB9A /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				E339CFBC1CE2DCFB0074DB9A /* TwoViewController.h */,
+				E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */,
+				E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */,
+			);
+			name = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +265,7 @@
 				TargetAttributes = {
 					E339CF7C1CE2D7B80074DB9A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R8AFL68W3V;
 					};
 					E339CF951CE2D7B80074DB9A = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,9 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E339CFCB1CE2E1550074DB9A /* OnePushViewController.xib in Resources */,
 				E339CF901CE2D7B80074DB9A /* LaunchScreen.storyboard in Resources */,
 				E339CF8D1CE2D7B80074DB9A /* Assets.xcassets in Resources */,
-				E339CF8B1CE2D7B80074DB9A /* Main.storyboard in Resources */,
+				E339CFBB1CE2DCDC0074DB9A /* OneViewController.xib in Resources */,
+				E339CFC01CE2DCFB0074DB9A /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E339CF881CE2D7B80074DB9A /* ViewController.m in Sources */,
+				E339CFB61CE2DA9E0074DB9A /* TabBarController.m in Sources */,
 				E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */,
 				E339CF821CE2D7B80074DB9A /* main.m in Sources */,
+				E339CFCA1CE2E1550074DB9A /* OnePushViewController.m in Sources */,
+				E339CFC31CE2DDAA0074DB9A /* HFNavigationController.m in Sources */,
+				E339CFBF1CE2DCFB0074DB9A /* TwoViewController.m in Sources */,
+				E339CFBA1CE2DCDC0074DB9A /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E339CF891CE2D7B80074DB9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E339CF8A1CE2D7B80074DB9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HFNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HFNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
