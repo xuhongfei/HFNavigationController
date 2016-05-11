@@ -32,6 +32,7 @@
 - (IBAction)push {
     
     OnePushViewController *onePushVC = [[OnePushViewController alloc] initWithNibName:@"OnePushViewController" bundle:nil];
+    
     [self.navigationController pushViewController:onePushVC animated:YES];
 }
 
