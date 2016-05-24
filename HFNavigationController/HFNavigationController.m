@@ -44,9 +44,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIPanGestureRecognizer *panGP = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognizer:)];
-    panGP.delegate = self;
-    [self.view addGestureRecognizer:panGP];
+    UIScreenEdgePanGestureRecognizer *screenEdgePanGP = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognizer:)];
+    screenEdgePanGP.edges = UIRectEdgeLeft;
+    screenEdgePanGP.delegate = self;
+    [self.view addGestureRecognizer:screenEdgePanGP];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -143,7 +144,7 @@
 
 
 #pragma mark -
-- (void)panGestureRecognizer:(UIGestureRecognizer *)recoginzer
+- (void)panGestureRecognizer:(UIScreenEdgePanGestureRecognizer *)recoginzer
 {
     // If the viewControllers has only one vc or disable the interaction, then return.
     if (self.viewControllers.count <= 1 || !self.canInteractive) return;
