@@ -195,7 +195,7 @@
                 frame.origin.x = 0;
                 HF_TOP_VIEW.frame = frame;
                 
-                _isMoving = NO;
+                self->_isMoving = NO;
                 self.backgroundView.hidden = YES;
                 
             }];
@@ -205,7 +205,7 @@
             [UIView animateWithDuration:0.3 animations:^{
                 [self moveViewWithX:0];
             } completion:^(BOOL finished) {
-                _isMoving = NO;
+                self->_isMoving = NO;
                 self.backgroundView.hidden = YES;
             }];
         }
@@ -217,7 +217,7 @@
         [UIView animateWithDuration:0.3 animations:^{
             [self moveViewWithX:0];
         } completion:^(BOOL finished) {
-            _isMoving = NO;
+            self->_isMoving = NO;
             self.backgroundView.hidden = YES;
         }];
         

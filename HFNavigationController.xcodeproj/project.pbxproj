@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BFC773F224485F900794E98 /* HFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC773E224485F900794E98 /* HFNavigationController.swift */; };
-		3BFC77422244867600794E98 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC77412244867600794E98 /* TabBarController.m */; };
-		E339CF821CE2D7B80074DB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF811CE2D7B80074DB9A /* main.m */; };
-		E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF841CE2D7B80074DB9A /* AppDelegate.m */; };
-		E339CF8D1CE2D7B80074DB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */; };
-		E339CF901CE2D7B80074DB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */; };
+		3BFC7762224489A600794E98 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC7744224489A600794E98 /* TwoViewController.xib */; };
+		3BFC7763224489A600794E98 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC7745224489A600794E98 /* TwoViewController.m */; };
+		3BFC7764224489A600794E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC7748224489A600794E98 /* Assets.xcassets */; };
+		3BFC7765224489A600794E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC7749224489A600794E98 /* LaunchScreen.storyboard */; };
+		3BFC7766224489A600794E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC774B224489A600794E98 /* Main.storyboard */; };
+		3BFC7767224489A600794E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC774D224489A600794E98 /* main.m */; };
+		3BFC7769224489A600794E98 /* OnePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC7750224489A600794E98 /* OnePushViewController.m */; };
+		3BFC776A224489A600794E98 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC7751224489A600794E98 /* OneViewController.m */; };
+		3BFC776B224489A600794E98 /* OnePushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC7752224489A600794E98 /* OnePushViewController.xib */; };
+		3BFC776C224489A600794E98 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC7755224489A600794E98 /* OneViewController.xib */; };
+		3BFC776D224489A600794E98 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC7757224489A600794E98 /* TabBarController.m */; };
+		3BFC776E224489A600794E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC775A224489A600794E98 /* AppDelegate.m */; };
+		3BFC776F224489A600794E98 /* HFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC775D224489A600794E98 /* HFNavigationController.m */; };
+		3BFC7770224489A600794E98 /* HFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC7761224489A600794E98 /* HFNavigationController.swift */; };
 		E339CF9B1CE2D7B80074DB9A /* HFNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF9A1CE2D7B80074DB9A /* HFNavigationControllerTests.m */; };
 		E339CFA61CE2D7B80074DB9A /* HFNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFA51CE2D7B80074DB9A /* HFNavigationControllerUITests.m */; };
-		E339CFB61CE2DA9E0074DB9A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFB51CE2DA9E0074DB9A /* TabBarController.m */; };
-		E339CFBA1CE2DCDC0074DB9A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFB81CE2DCDC0074DB9A /* OneViewController.m */; };
-		E339CFBB1CE2DCDC0074DB9A /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */; };
-		E339CFBF1CE2DCFB0074DB9A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */; };
-		E339CFC01CE2DCFB0074DB9A /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */; };
-		E339CFC31CE2DDAA0074DB9A /* HFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */; };
-		E339CFCA1CE2E1550074DB9A /* OnePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CFC81CE2E1550074DB9A /* OnePushViewController.m */; };
-		E339CFCB1CE2E1550074DB9A /* OnePushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,36 +43,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BFC773D224485F700794E98 /* HFNavigationController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFNavigationController-Bridging-Header.h"; sourceTree = "<group>"; };
-		3BFC773E224485F900794E98 /* HFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFNavigationController.swift; sourceTree = "<group>"; };
-		3BFC77402244867600794E98 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		3BFC77412244867600794E98 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		3BFC7744224489A600794E98 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		3BFC7745224489A600794E98 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		3BFC7746224489A600794E98 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		3BFC7748224489A600794E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFC774A224489A600794E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BFC774C224489A600794E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BFC774D224489A600794E98 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BFC774E224489A600794E98 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFC7750224489A600794E98 /* OnePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePushViewController.m; sourceTree = "<group>"; };
+		3BFC7751224489A600794E98 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		3BFC7752224489A600794E98 /* OnePushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePushViewController.xib; sourceTree = "<group>"; };
+		3BFC7753224489A600794E98 /* OnePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePushViewController.h; sourceTree = "<group>"; };
+		3BFC7754224489A600794E98 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		3BFC7755224489A600794E98 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		3BFC7757224489A600794E98 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		3BFC7758224489A600794E98 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BFC7759224489A600794E98 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3BFC775A224489A600794E98 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BFC775D224489A600794E98 /* HFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNavigationController.m; sourceTree = "<group>"; };
+		3BFC775E224489A600794E98 /* HFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNavigationController.h; sourceTree = "<group>"; };
+		3BFC7760224489A600794E98 /* HFNavigationController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFNavigationController-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BFC7761224489A600794E98 /* HFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFNavigationController.swift; sourceTree = "<group>"; };
 		E339CF7D1CE2D7B80074DB9A /* HFNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E339CF811CE2D7B80074DB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E339CF831CE2D7B80074DB9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E339CF841CE2D7B80074DB9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E339CF8F1CE2D7B80074DB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E339CF911CE2D7B80074DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E339CF961CE2D7B80074DB9A /* HFNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E339CF9A1CE2D7B80074DB9A /* HFNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNavigationControllerTests.m; sourceTree = "<group>"; };
 		E339CF9C1CE2D7B80074DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E339CFA11CE2D7B80074DB9A /* HFNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E339CFA51CE2D7B80074DB9A /* HFNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNavigationControllerUITests.m; sourceTree = "<group>"; };
 		E339CFA71CE2D7B80074DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E339CFB41CE2DA9E0074DB9A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		E339CFB51CE2DA9E0074DB9A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		E339CFB71CE2DCDC0074DB9A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
-		E339CFB81CE2DCDC0074DB9A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
-		E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
-		E339CFBC1CE2DCFB0074DB9A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
-		E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
-		E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
-		E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFNavigationController.h; sourceTree = "<group>"; };
-		E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNavigationController.m; sourceTree = "<group>"; };
-		E339CFC71CE2E1550074DB9A /* OnePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePushViewController.h; sourceTree = "<group>"; };
-		E339CFC81CE2E1550074DB9A /* OnePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePushViewController.m; sourceTree = "<group>"; };
-		E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePushViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,22 +99,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BFC773B2244855B00794E98 /* OC */ = {
+		3BFC7743224489A600794E98 /* Second */ = {
 			isa = PBXGroup;
 			children = (
-				E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */,
-				E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */,
+				3BFC7746224489A600794E98 /* TwoViewController.h */,
+				3BFC7745224489A600794E98 /* TwoViewController.m */,
+				3BFC7744224489A600794E98 /* TwoViewController.xib */,
 			);
-			name = OC;
+			path = Second;
 			sourceTree = "<group>";
 		};
-		3BFC773C2244858700794E98 /* swift */ = {
+		3BFC7747224489A600794E98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BFC773D224485F700794E98 /* HFNavigationController-Bridging-Header.h */,
-				3BFC773E224485F900794E98 /* HFNavigationController.swift */,
+				3BFC774E224489A600794E98 /* Info.plist */,
+				3BFC7749224489A600794E98 /* LaunchScreen.storyboard */,
+				3BFC774B224489A600794E98 /* Main.storyboard */,
+				3BFC774D224489A600794E98 /* main.m */,
+				3BFC7748224489A600794E98 /* Assets.xcassets */,
 			);
-			name = swift;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BFC774F224489A600794E98 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC7755224489A600794E98 /* OneViewController.xib */,
+				3BFC7754224489A600794E98 /* OneViewController.h */,
+				3BFC7751224489A600794E98 /* OneViewController.m */,
+				3BFC7753224489A600794E98 /* OnePushViewController.h */,
+				3BFC7750224489A600794E98 /* OnePushViewController.m */,
+				3BFC7752224489A600794E98 /* OnePushViewController.xib */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		3BFC7756224489A600794E98 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC7758224489A600794E98 /* AppDelegate.h */,
+				3BFC775A224489A600794E98 /* AppDelegate.m */,
+				3BFC7759224489A600794E98 /* TabBarController.h */,
+				3BFC7757224489A600794E98 /* TabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3BFC775B224489A600794E98 /* HFNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC775C224489A600794E98 /* oc */,
+				3BFC775F224489A600794E98 /* swift */,
+			);
+			path = HFNavigationController;
+			sourceTree = "<group>";
+		};
+		3BFC775C224489A600794E98 /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC775E224489A600794E98 /* HFNavigationController.h */,
+				3BFC775D224489A600794E98 /* HFNavigationController.m */,
+			);
+			path = oc;
+			sourceTree = "<group>";
+		};
+		3BFC775F224489A600794E98 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC7760224489A600794E98 /* HFNavigationController-Bridging-Header.h */,
+				3BFC7761224489A600794E98 /* HFNavigationController.swift */,
+			);
+			path = swift;
 			sourceTree = "<group>";
 		};
 		E339CF741CE2D7B80074DB9A = {
@@ -141,28 +195,13 @@
 		E339CF7F1CE2D7B80074DB9A /* HFNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				E339CFB31CE2DA100074DB9A /* HFNavigationController */,
-				E339CFC51CE2E0BE0074DB9A /* First */,
-				E339CFC61CE2E0D70074DB9A /* Second */,
-				E339CFC41CE2E0AD0074DB9A /* Main */,
-				E339CF831CE2D7B80074DB9A /* AppDelegate.h */,
-				E339CF841CE2D7B80074DB9A /* AppDelegate.m */,
-				3BFC77402244867600794E98 /* TabBarController.h */,
-				3BFC77412244867600794E98 /* TabBarController.m */,
-				E339CF801CE2D7B80074DB9A /* Supporting Files */,
+				3BFC775B224489A600794E98 /* HFNavigationController */,
+				3BFC774F224489A600794E98 /* First */,
+				3BFC7756224489A600794E98 /* Main */,
+				3BFC7743224489A600794E98 /* Second */,
+				3BFC7747224489A600794E98 /* Supporting Files */,
 			);
 			path = HFNavigationController;
-			sourceTree = "<group>";
-		};
-		E339CF801CE2D7B80074DB9A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E339CF811CE2D7B80074DB9A /* main.m */,
-				E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */,
-				E339CF911CE2D7B80074DB9A /* Info.plist */,
-				E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E339CF991CE2D7B80074DB9A /* HFNavigationControllerTests */ = {
@@ -181,47 +220,6 @@
 				E339CFA71CE2D7B80074DB9A /* Info.plist */,
 			);
 			path = HFNavigationControllerUITests;
-			sourceTree = "<group>";
-		};
-		E339CFB31CE2DA100074DB9A /* HFNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				3BFC773C2244858700794E98 /* swift */,
-				3BFC773B2244855B00794E98 /* OC */,
-			);
-			name = HFNavigationController;
-			sourceTree = "<group>";
-		};
-		E339CFC41CE2E0AD0074DB9A /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				E339CFB41CE2DA9E0074DB9A /* TabBarController.h */,
-				E339CFB51CE2DA9E0074DB9A /* TabBarController.m */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		E339CFC51CE2E0BE0074DB9A /* First */ = {
-			isa = PBXGroup;
-			children = (
-				E339CFB71CE2DCDC0074DB9A /* OneViewController.h */,
-				E339CFB81CE2DCDC0074DB9A /* OneViewController.m */,
-				E339CFB91CE2DCDC0074DB9A /* OneViewController.xib */,
-				E339CFC71CE2E1550074DB9A /* OnePushViewController.h */,
-				E339CFC81CE2E1550074DB9A /* OnePushViewController.m */,
-				E339CFC91CE2E1550074DB9A /* OnePushViewController.xib */,
-			);
-			name = First;
-			sourceTree = "<group>";
-		};
-		E339CFC61CE2E0D70074DB9A /* Second */ = {
-			isa = PBXGroup;
-			children = (
-				E339CFBC1CE2DCFB0074DB9A /* TwoViewController.h */,
-				E339CFBD1CE2DCFB0074DB9A /* TwoViewController.m */,
-				E339CFBE1CE2DCFB0074DB9A /* TwoViewController.xib */,
-			);
-			name = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +284,7 @@
 		E339CF751CE2D7B80074DB9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = xuhongfei;
 				TargetAttributes = {
 					E339CF7C1CE2D7B80074DB9A = {
@@ -329,11 +327,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E339CFCB1CE2E1550074DB9A /* OnePushViewController.xib in Resources */,
-				E339CF901CE2D7B80074DB9A /* LaunchScreen.storyboard in Resources */,
-				E339CF8D1CE2D7B80074DB9A /* Assets.xcassets in Resources */,
-				E339CFBB1CE2DCDC0074DB9A /* OneViewController.xib in Resources */,
-				E339CFC01CE2DCFB0074DB9A /* TwoViewController.xib in Resources */,
+				3BFC7765224489A600794E98 /* LaunchScreen.storyboard in Resources */,
+				3BFC776B224489A600794E98 /* OnePushViewController.xib in Resources */,
+				3BFC7764224489A600794E98 /* Assets.xcassets in Resources */,
+				3BFC7762224489A600794E98 /* TwoViewController.xib in Resources */,
+				3BFC776C224489A600794E98 /* OneViewController.xib in Resources */,
+				3BFC7766224489A600794E98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,15 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E339CFB61CE2DA9E0074DB9A /* TabBarController.m in Sources */,
-				3BFC773F224485F900794E98 /* HFNavigationController.swift in Sources */,
-				E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */,
-				3BFC77422244867600794E98 /* TabBarController.m in Sources */,
-				E339CF821CE2D7B80074DB9A /* main.m in Sources */,
-				E339CFCA1CE2E1550074DB9A /* OnePushViewController.m in Sources */,
-				E339CFC31CE2DDAA0074DB9A /* HFNavigationController.m in Sources */,
-				E339CFBF1CE2DCFB0074DB9A /* TwoViewController.m in Sources */,
-				E339CFBA1CE2DCDC0074DB9A /* OneViewController.m in Sources */,
+				3BFC7767224489A600794E98 /* main.m in Sources */,
+				3BFC7770224489A600794E98 /* HFNavigationController.swift in Sources */,
+				3BFC7763224489A600794E98 /* TwoViewController.m in Sources */,
+				3BFC776F224489A600794E98 /* HFNavigationController.m in Sources */,
+				3BFC776E224489A600794E98 /* AppDelegate.m in Sources */,
+				3BFC776D224489A600794E98 /* TabBarController.m in Sources */,
+				3BFC7769224489A600794E98 /* OnePushViewController.m in Sources */,
+				3BFC776A224489A600794E98 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,12 +400,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E339CF8E1CE2D7B80074DB9A /* LaunchScreen.storyboard */ = {
+		3BFC7749224489A600794E98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E339CF8F1CE2D7B80074DB9A /* Base */,
+				3BFC774A224489A600794E98 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3BFC774B224489A600794E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BFC774C224489A600794E98 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,13 +428,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -467,13 +483,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -492,6 +518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -504,12 +531,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = HFNavigationController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HFNavigationController/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController/swift/HFNavigationController-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
@@ -522,12 +549,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = HFNavigationController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HFNavigationController/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController/swift/HFNavigationController-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

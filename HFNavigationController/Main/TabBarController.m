@@ -20,6 +20,7 @@
     
     OneViewController *oneVC = [[OneViewController alloc]  initWithNibName:@"OneViewController" bundle:nil];
     HFNavigationController *navC1 = [[HFNavigationController alloc] initWithRootViewController:oneVC];
+    navC1.popAnimationType = PopAnimationTypeScale;
     navC1.title = @"首页";
     navC1.tabBarItem.image = [UIImage imageNamed:@"bookmark_unselect"];
     navC1.tabBarItem.selectedImage = [UIImage imageNamed:@"bookmark_select"];
