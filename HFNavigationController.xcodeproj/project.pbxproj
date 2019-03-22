@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFC773F224485F900794E98 /* HFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC773E224485F900794E98 /* HFNavigationController.swift */; };
+		3BFC77422244867600794E98 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC77412244867600794E98 /* TabBarController.m */; };
 		E339CF821CE2D7B80074DB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF811CE2D7B80074DB9A /* main.m */; };
 		E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E339CF841CE2D7B80074DB9A /* AppDelegate.m */; };
 		E339CF8D1CE2D7B80074DB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E339CF8C1CE2D7B80074DB9A /* Assets.xcassets */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BFC773D224485F700794E98 /* HFNavigationController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFNavigationController-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BFC773E224485F900794E98 /* HFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFNavigationController.swift; sourceTree = "<group>"; };
+		3BFC77402244867600794E98 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3BFC77412244867600794E98 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		E339CF7D1CE2D7B80074DB9A /* HFNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E339CF811CE2D7B80074DB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E339CF831CE2D7B80074DB9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BFC773B2244855B00794E98 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */,
+				E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */,
+			);
+			name = OC;
+			sourceTree = "<group>";
+		};
+		3BFC773C2244858700794E98 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				3BFC773D224485F700794E98 /* HFNavigationController-Bridging-Header.h */,
+				3BFC773E224485F900794E98 /* HFNavigationController.swift */,
+			);
+			name = swift;
+			sourceTree = "<group>";
+		};
 		E339CF741CE2D7B80074DB9A = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +147,8 @@
 				E339CFC41CE2E0AD0074DB9A /* Main */,
 				E339CF831CE2D7B80074DB9A /* AppDelegate.h */,
 				E339CF841CE2D7B80074DB9A /* AppDelegate.m */,
+				3BFC77402244867600794E98 /* TabBarController.h */,
+				3BFC77412244867600794E98 /* TabBarController.m */,
 				E339CF801CE2D7B80074DB9A /* Supporting Files */,
 			);
 			path = HFNavigationController;
@@ -160,8 +186,8 @@
 		E339CFB31CE2DA100074DB9A /* HFNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				E339CFC11CE2DDAA0074DB9A /* HFNavigationController.h */,
-				E339CFC21CE2DDAA0074DB9A /* HFNavigationController.m */,
+				3BFC773C2244858700794E98 /* swift */,
+				3BFC773B2244855B00794E98 /* OC */,
 			);
 			name = HFNavigationController;
 			sourceTree = "<group>";
@@ -266,6 +292,7 @@
 					E339CF7C1CE2D7B80074DB9A = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = R8AFL68W3V;
+						LastSwiftMigration = 1010;
 					};
 					E339CF951CE2D7B80074DB9A = {
 						CreatedOnToolsVersion = 7.3;
@@ -332,7 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E339CFB61CE2DA9E0074DB9A /* TabBarController.m in Sources */,
+				3BFC773F224485F900794E98 /* HFNavigationController.swift in Sources */,
 				E339CF851CE2D7B80074DB9A /* AppDelegate.m in Sources */,
+				3BFC77422244867600794E98 /* TabBarController.m in Sources */,
 				E339CF821CE2D7B80074DB9A /* main.m in Sources */,
 				E339CFCA1CE2E1550074DB9A /* OnePushViewController.m in Sources */,
 				E339CFC31CE2DDAA0074DB9A /* HFNavigationController.m in Sources */,
@@ -472,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HFNavigationController/Info.plist;
@@ -479,6 +509,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -486,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HFNavigationController/Info.plist;
@@ -493,12 +527,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HFNavigationController/HFNavigationController-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		E339CFAE1CE2D7B90074DB9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HFNavigationControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -511,6 +548,7 @@
 		E339CFAF1CE2D7B90074DB9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HFNavigationControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -523,6 +561,7 @@
 		E339CFB11CE2D7B90074DB9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HFNavigationControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationControllerUITests;
@@ -534,6 +573,7 @@
 		E339CFB21CE2D7B90074DB9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HFNavigationControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xuhongfei.HFNavigationControllerUITests;
@@ -561,6 +601,7 @@
 				E339CFAC1CE2D7B90074DB9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E339CFAD1CE2D7B90074DB9A /* Build configuration list for PBXNativeTarget "HFNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +610,7 @@
 				E339CFAF1CE2D7B90074DB9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E339CFB01CE2D7B90074DB9A /* Build configuration list for PBXNativeTarget "HFNavigationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +619,7 @@
 				E339CFB21CE2D7B90074DB9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

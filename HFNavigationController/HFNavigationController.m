@@ -7,11 +7,11 @@
 //
 
 #import "HFNavigationController.h"
+#import "AppDelegate.h"
 
 
-
-#define HF_KEY_WINDOW  [[UIApplication sharedApplication]keyWindow]
-#define HF_TOP_VIEW  [[UIApplication sharedApplication]keyWindow].rootViewController.view
+#define HF_KEY_WINDOW  ((AppDelegate *)[UIApplication sharedApplication].delegate).window
+#define HF_TOP_VIEW  ((AppDelegate *)[UIApplication sharedApplication].delegate).window.rootViewController.view
 #define HF_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
 @interface HFNavigationController () <UIGestureRecognizerDelegate>
@@ -36,6 +36,7 @@
         self.canInteractive = YES;
         self.popAnimationType = PopAnimationTypeLiner;
         self.navigationBar.translucent = false;
+        
     }
     
     return self;
